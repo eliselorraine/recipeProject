@@ -1,0 +1,21 @@
+{
+  "name": "recipeproject",
+  "version": "1.0.0",
+  "description": "To open bash terminal into local mysql server instance: ``` mysql -u root -p ``` ### TO DO: - Integrate Prisma. - Create User model and implement authentication with JWT.",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "npx prisma migrate dev --name init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prisma": "^5.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1"
+  }
+}

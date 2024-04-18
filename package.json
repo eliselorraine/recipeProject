@@ -1,10 +1,10 @@
 {
-  "name": "recipeproject",
+  "name": "recipe_project",
   "version": "1.0.0",
-  "description": "To open bash terminal into local mysql server instance: ``` mysql -u root -p ``` ### TO DO: - Integrate Prisma. - Create User model and implement authentication with JWT.",
+  "description": "An app to store recipes using Next.js & TypeScript",
   "main": "index.js",
   "scripts": {
-    "migrate": "npx prisma migrate dev --name init"
+    "migrate": "npx prisma migrate dev"
   },
   "keywords": [],
   "author": "",
